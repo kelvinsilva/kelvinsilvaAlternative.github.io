@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<div class=bg>
 <head>
         <meta charset="utf-8">
         <title> Kelvin Silva -- A Systems Engineer </title>
@@ -64,13 +65,26 @@
         </center>
 
 </head>
-
+</div>
 </html>
 
 <style>
-head{
-	background-image: url("background_asset.jpg");
-	background-repeat: repeat;
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("background_asset.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1 {
   background: orange;
